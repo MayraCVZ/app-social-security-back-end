@@ -1,0 +1,29 @@
+{
+  "ids": {
+    "Agenda": 15,
+    "Cliente": 11,
+    "SeguimientoAsunto": 8
+  },
+  "models": {
+    "Agenda": {
+      "1": "{\"idAgenda\":1,\"numExpediente\":1,\"nombre\":\"Claudia Lopez\",\"tipoCita\":\"Cobro de Gastos\",\"fecha\":\"2023-06-17\",\"hora\":\"09:30\",\"comentarios\":\"Reunion \"}",
+      "2": "{\"idAgenda\":2,\"numExpediente\":2,\"nombre\":\"Pedro Perez\",\"tipoCita\":\"Recepción de documentos solicitados\",\"fecha\":\"2023-06-17\",\"hora\":\"10:30\",\"comentarios\":\"Resepcion de documentos \"}",
+      "12": "{\"numExpediente\":5,\"nombre\":\"Daniel Guzman\",\"idTipoCita\":4,\"tipoCita\":\"Diagnostico\",\"fecha\":\"2023-06-17\",\"hora\":\"15:30\",\"comentarios\":\"Reunion\",\"idAgenda\":12}",
+      "13": "{\"numExpediente\":7,\"nombre\":\"Fransisco Rio\",\"tipoCita\":\"Firmar documentos de trámites previos a la pensión\",\"fecha\":\"2023-06-17\",\"hora\":\"16:40\",\"comentarios\":\"Reunion\",\"idAgenda\":13}"
+    },
+    "Cliente": {
+      "1": "{\"value\":\"Claudia Lopez\",\"key\":1}",
+      "2": "{\"value\":\"Pedro Perez\",\"key\":2}",
+      "3": "{\"value\":\"Hector gonzalez\",\"key\":3}",
+      "4": "{\"value\":\"Julio Cazas\",\"key\":4}",
+      "5": "{\"value\":\"Daniel Guzmanz\",\"key\":5}",
+      "6": "{\"value\":\"Angel Marquez\",\"key\":6}",
+      "7": "{\"value\":\"Mauricio Hernandez\",\"key\":7}",
+      "8": "{\"value\":\"Diana Montes\",\"key\":8}",
+      "9": "{\"value\":\"Fransisco Rio\",\"key\":9}"
+    },
+    "SeguimientoAsunto": {
+      "1": "{\"nombre\":\"Julio Cazas\",\"numExpediente\":1,\"fecha\":\"2023-06-18\",\"horaInicio\":\"10\",\"horaFin\":\"11\",\"detalle\":\"Pruebas\",\"idSeguimiento\":1}"
+    }
+  }
+}
